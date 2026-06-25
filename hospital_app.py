@@ -19,7 +19,7 @@ footer {visibilty; hidden}
 @st.cache_resource
 def load_model():
   with open('hospital_model.pkl', 'rb')as f:
-    return pickel.load(F)
+    return picklr.load(F)
 
 bundel = load_model()
 model = bundel['model']
