@@ -64,6 +64,13 @@ DEPT_INFO = {
         'next':['Visit Level 2, Wing D','Estimated wait: 15–20 min','Bring photos of affected area if possible']
     },
 }
-st.mrkdown("""
+st.markdown("""
 <div style"pading": 3rem 2rem 2.5rem;margin: -1rem 2rem; tex-align:center;">
-<div style="fromt-size:14px; color:white;text-transfrom:uppercase;margin-bottom:12px;
+<div style="fromt-size:14px; color:white;text-transfrom:uppercase;margin-bottom:12px;>
+future classroom : machine learning
+<br>
+Smart Hospital by Chacha
+  </div>
+</div>
+""",unsafe_allow_html=True)
+
